@@ -76,3 +76,8 @@ w {
 .icon-custom {
   width: 25px;
 }
+
+.graphic-design {
+  width: 20vw;
+  border-width: 3px !important;
+}
