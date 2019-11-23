@@ -5,7 +5,12 @@ header {
 body {
   font-family: 'Fjalla One', sans-serif !important;
   top: 200px;
-  background-color: rgb(19, 19, 19) !important;
+  background-image: url('../img/wall.jpg');
+  background-size: cover;
+  background-position: center;
+  /**
+  background-color: rgb(19, 19, 19);
+  **/
 }
 
 .sheppards {
@@ -80,4 +85,8 @@ w {
 .graphic-design {
   width: 20vw;
   border-width: 3px !important;
+}
+
+.fancybox {
+  background-image: url('/assets/img/icons/fancybox.png');
 }
