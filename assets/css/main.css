@@ -5,12 +5,12 @@ header {
 body {
   font-family: 'Fjalla One', sans-serif !important;
   top: 200px;
-  background-image: url('../img/wall.jpg');
+  /**
+  background-image: url('../img/moon.jpg');
   background-size: cover;
   background-position: center;
-  /**
-  background-color: rgb(19, 19, 19);
   **/
+  background-color: rgb(19, 19, 19);
 }
 
 .sheppards {
