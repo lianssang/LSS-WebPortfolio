@@ -201,6 +201,16 @@
                 information
               </h6>
               <h6 class="">Course: <w>CSCI4700: Software Engineering</w></h6>
+              <div class="row col-12">
+                <div class="col-6 ml-auto pt-1 text-right">
+                  <w>Tech</w> Used:
+                </div>
+                <div class="col-6 m-0 p-0 text-left">
+                  <i class="fab fa-php fa-2x pl-1 text-warning"></i>
+                  <i class="fab fa-html5 fa-2x pl-1 text-warning"></i>
+                  <i class="fab fa-css3-alt fa-2x pl-1 text-warning"></i>
+                </div>
+              </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 my-3">
               <a
@@ -216,6 +226,41 @@
                 web-based application
               </h6>
               <h6 class="">Course: <w>CSCI3033: Computer Languages Java</w></h6>
+              <div class="row col-12">
+                <div class="col-6 ml-auto pt-1 text-right">
+                  <w>Tech</w> Used:
+                </div>
+                <div class="col-6 m-0 p-0 text-left">
+                  <i class="fab fa-java fa-2x pl-2 text-warning"></i>
+                  <i class="fab fa-html5 fa-2x pl-1 text-warning"></i>
+                  <i class="fab fa-bootstrap fa-2x pl-1 text-warning"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 my-3">
+              <a
+                href="https://github.com/lianssang/MT-CSCI4700-Pipelime"
+                target="_blank"
+                ><img
+                  class="border border-warning rounded graphic-design"
+                  src="assets/img/coding/cp-3.jpg"
+              /></a>
+              <h6 class="pt-2">
+                Title: <w>Indoor Wirelesss Localization with Neural Net</w>
+              </h6>
+              <h6 class="">
+                <w>Description: </w>Neural Network applied to indoor wireless
+                localization
+              </h6>
+              <h6 class="">Course: <w>CSCI4850: Neural Networks</w></h6>
+              <div class="row col-12">
+                <div class="col-6 ml-auto pt-1 text-right">
+                  <w>Tech</w> Used:
+                </div>
+                <div class="col-6 m-0 p-0 text-left">
+                  <i class="fab fa-python fa-2x pl-2 text-warning"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -237,7 +282,7 @@
               /></a>
               <h6 class="pt-2">Title: <w>Thanksgiving Worship Night</w></h6>
               <h6 class=""><w>Host: </w>Chosen Generation</h6>
-              <h6 class="">Tech Used: <w>Adobe Photoshop CC 2019</w></h6>
+              <h6 class=""><w>Tech</w> Used: <w>Adobe Photoshop CC 2019</w></h6>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 my-3">
               <a data-fancybox="gallery" href="assets/img/graphic/gd-3.jpg"
@@ -247,7 +292,6 @@
               /></a>
               <h6 class="pt-2">Title: <w>Khuado Pawi 2019</w></h6>
               <h6 class=""><w>Host: </w>Zomi Innkuan Tennessee</h6>
-              <h6 class="">Tech Used: <w>Adobe Photoshop CC 2019</w></h6>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 my-3">
               <a data-fancybox="gallery" href="assets/img/graphic/gd-2.jpg"
@@ -257,7 +301,6 @@
               /></a>
               <h6 class="pt-2">Title: <w>Be Inspired: Dr. Sa Sa</w></h6>
               <h6 class=""><w>Host: </w>Logos Life</h6>
-              <h6 class="">Tech Used: <w>Adobe Photoshop CC 2019</w></h6>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4 my-3">
               <a data-fancybox="gallery" href="assets/img/graphic/gd-1.jpg"
@@ -269,7 +312,6 @@
                 Title: <w>Welcome Service: Dr. Anna Sui Hluan</w>
               </h6>
               <h6 class=""><w>Host: </w>Myanmar Community, Nashville</h6>
-              <h6 class="">Tech Used: <w>Adobe Photoshop CC 2019</w></h6>
             </div>
           </div>
         </div>
@@ -290,8 +332,7 @@
                   type="text"
                   class="form-control border-warning"
                   id="validationCustom01"
-                  placeholder="First name"
-                  value="Sally"
+                  placeholder="Sally"
                   required
                 />
                 <div class="valid-feedback">
@@ -304,8 +345,7 @@
                   type="text"
                   class="form-control border-warning"
                   id="validationCustom02"
-                  placeholder="Last name"
-                  value="Jackson"
+                  placeholder="Jackson"
                   required
                 />
                 <div class="valid-feedback">
@@ -318,7 +358,7 @@
                   type="text"
                   class="form-control border-warning"
                   id="validationCustom05"
-                  placeholder="Email"
+                  placeholder="sallyjackson@email.com"
                   required
                 />
                 <div class="invalid-feedback">
@@ -329,13 +369,15 @@
             <div class="form-row">
               <div class="col-xs-6 col-sm-6 col-md-4 mb-3">
                 <label for="validationCustom03">Type</label>
-                <input
-                  type="text"
-                  class="form-control border-warning"
+                <select
+                  class="custom-select border-warning mr-sm-2"
                   id="validationCustom03"
-                  placeholder="Type"
-                  required
-                />
+                >
+                  <option selected>Choose...</option>
+                  <option value="web">Web Design</option>
+                  <option value="graphic">Graphic Design</option>
+                  <option value="photo">Photography</option>
+                </select>
                 <div class="invalid-feedback">
                   Please provide a valid project type.
                 </div>
@@ -346,7 +388,7 @@
                   type="text"
                   class="form-control border-warning"
                   id="validationCustom04"
-                  placeholder="Title"
+                  placeholder="Project"
                   required
                 />
                 <div class="invalid-feedback">
@@ -384,7 +426,7 @@
               </div>
             </div>
             <button class="btn btn-warning text-dark" type="submit">
-              Submit form
+              Submit service
             </button>
           </form>
         </div>
